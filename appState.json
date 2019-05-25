@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "478c28e9-5b73-4c0a-a65d-9e4111d5eb48": {
+        "id": "478c28e9-5b73-4c0a-a65d-9e4111d5eb48",
+        "parent": null,
+        "name": "MyTest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "55cc51aa-183d-4940-bd79-d78419915654"
+        ],
+        "isRemovable": false,
+        "filePath": "MyTest"
+      },
+      "55cc51aa-183d-4940-bd79-d78419915654": {
+        "id": "55cc51aa-183d-4940-bd79-d78419915654",
+        "parent": "478c28e9-5b73-4c0a-a65d-9e4111d5eb48",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MyTest/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "478c28e9-5b73-4c0a-a65d-9e4111d5eb48",
+    "openFiles": [
+      "55cc51aa-183d-4940-bd79-d78419915654"
+    ],
+    "currentFileId": "55cc51aa-183d-4940-bd79-d78419915654",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "MyTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1558810317969
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "MyTest",
+      "url": "https://github.com/anarorucov/MyTest"
+    }
+  }
+}
