@@ -8,7 +8,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "55cc51aa-183d-4940-bd79-d78419915654"
+          "55cc51aa-183d-4940-bd79-d78419915654",
+          "ec3e91ce-afca-4993-bbad-007b337e0781"
         ],
         "isRemovable": false,
         "filePath": "MyTest"
@@ -31,14 +32,34 @@
           "memory": 128,
           "layers": []
         }
+      },
+      "ec3e91ce-afca-4993-bbad-007b337e0781": {
+        "id": "ec3e91ce-afca-4993-bbad-007b337e0781",
+        "parent": "478c28e9-5b73-4c0a-a65d-9e4111d5eb48",
+        "name": "asdf.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MyTest/asdf.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
       }
     },
     "deletedFiles": [],
     "rootNode": "478c28e9-5b73-4c0a-a65d-9e4111d5eb48",
     "openFiles": [
-      "55cc51aa-183d-4940-bd79-d78419915654"
+      "55cc51aa-183d-4940-bd79-d78419915654",
+      "ec3e91ce-afca-4993-bbad-007b337e0781"
     ],
-    "currentFileId": "55cc51aa-183d-4940-bd79-d78419915654",
+    "currentFileId": "ec3e91ce-afca-4993-bbad-007b337e0781",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -65,7 +86,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1558810939234
+    "lastSave": 1558811270071
   },
   "VCS_STATE": {
     "provider": "GitHub",
