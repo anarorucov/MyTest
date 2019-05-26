@@ -9,7 +9,8 @@
         "isDirectory": true,
         "children": [
           "55cc51aa-183d-4940-bd79-d78419915654",
-          "ec3e91ce-afca-4993-bbad-007b337e0781"
+          "ec3e91ce-afca-4993-bbad-007b337e0781",
+          "978a9ca8-13ef-4a7c-88dc-5a934676726c"
         ],
         "isRemovable": false,
         "filePath": "MyTest"
@@ -51,15 +52,27 @@
           "memory": 128,
           "layers": []
         }
+      },
+      "978a9ca8-13ef-4a7c-88dc-5a934676726c": {
+        "id": "978a9ca8-13ef-4a7c-88dc-5a934676726c",
+        "parent": "478c28e9-5b73-4c0a-a65d-9e4111d5eb48",
+        "name": "hello.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MyTest/hello.html",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>hello</title>\n</head>\n<body>\nHello from Sigma\n</body>\n</html>"
       }
     },
     "deletedFiles": [],
     "rootNode": "478c28e9-5b73-4c0a-a65d-9e4111d5eb48",
     "openFiles": [
       "55cc51aa-183d-4940-bd79-d78419915654",
-      "ec3e91ce-afca-4993-bbad-007b337e0781"
+      "ec3e91ce-afca-4993-bbad-007b337e0781",
+      "978a9ca8-13ef-4a7c-88dc-5a934676726c"
     ],
-    "currentFileId": "ec3e91ce-afca-4993-bbad-007b337e0781",
+    "currentFileId": "978a9ca8-13ef-4a7c-88dc-5a934676726c",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -86,7 +99,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1558811270071
+    "lastSave": 1558849796139
   },
   "VCS_STATE": {
     "provider": "GitHub",
